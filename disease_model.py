@@ -2,7 +2,8 @@ from mesa import Agent, Model
 from mesa.time import RandomActivation
 from mesa.space import MultiGrid
 from mesa.datacollection import DataCollector
-from mesa.batchrunner import BatchRunner
+from mesa.batchrunner import batch_run
+
 
 from itertools import cycle
 import random

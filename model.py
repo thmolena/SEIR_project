@@ -3,8 +3,25 @@ from mesa import Agent, Model
 from mesa.time import RandomActivation
 from mesa.datacollection import DataCollector
 from mesa.space import MultiGrid
-from mesa.visualization.UserParam import UserSettableParameter                                               
+#from mesa.visualization.UserParam import UserSettableParameter
+
+"""
+Note: For the updated version of mesa, needs to change model_params according to this data structure:
+model_params = {
+    "N": {
+        "type": "SliderInt",
+        "value": 50,
+        "label": "Number of agents:",
+        "min": 10,
+        "max": 100,
+        "step": 1,
+    },
+    "width": 10,
+    "height": 10,
+}
+"""
 import scipy.stats as ss
+
 
 
 # Simulation model parameters
