@@ -29,14 +29,6 @@ def looping(number_of_people, width_of_grid, height_of_grid,number_of_iterations
     for i in range(number_of_iterations):
         model.step()
 
-# Parametric coefficient_a/coefficient_b (with I_t)
-# If the infection curve is sensitive to some parameters
-# Subdomains
-# Thursday: meeting at 3:00 pm 
-# Find the parameters which infects I_t (mainly)
-# Minimum number of agents
-
-
 
     agent_reporters = model.datacollector.get_model_vars_dataframe()
 #    print(agent_reporters)
