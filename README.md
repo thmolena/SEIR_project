@@ -1,3 +1,3 @@
-# SEIR_project
+# SEIR project
 
-My Doctoral Supervised Research on designing an SEIR Compartmental model
+My Doctoral Supervised Research on designing novel SEIR Compartmental models.
